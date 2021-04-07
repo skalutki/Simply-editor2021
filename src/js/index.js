@@ -19,15 +19,11 @@ save.addEventListener("click", () => {
 });
 
 load.addEventListener("click", () => {
-  const entry = localStorage.getItem("entry");
- 
- 
-  let result = "";
-
+  enterInput.value = localStorage.getItem("entry");
+ /*
   if (entry) {
-    result = entry;
-  }
-  enterInput.value = result;
+    enterInput.value = entry;
+  }*/
 });
 
 trash.addEventListener("click", () => {
