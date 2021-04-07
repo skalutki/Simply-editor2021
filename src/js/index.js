@@ -14,17 +14,20 @@ const enterInput = document.querySelector(".editor--js");
 const trash = document.querySelector(".button-trash--js");
 
 
-save.addEventListener("click", () => {
+save.addEventListener("click", (e) => {
+  e.preventDefault();
   localStorage.setItem("entry", enterInput.value);
 });
 
-load.addEventListener("click", () => {
-  enterInput.value = localStorage.getItem("entry");
+load.addEventListener("click", (e) => {
+  enterInput.value = localStorage.getItem("entry");  
+  e.preventDefault();
 
 });
 
-trash.addEventListener("click", () => {
+trash.addEventListener("click", (e) => {
   localStorage.removeItem("entry");
+  e.preventDefault();
   
   location.reload()
 });
