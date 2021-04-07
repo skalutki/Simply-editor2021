@@ -20,10 +20,7 @@ save.addEventListener("click", () => {
 
 load.addEventListener("click", () => {
   enterInput.value = localStorage.getItem("entry");
- /*
-  if (entry) {
-    enterInput.value = entry;
-  }*/
+
 });
 
 trash.addEventListener("click", () => {
