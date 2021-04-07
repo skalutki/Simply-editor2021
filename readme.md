@@ -17,7 +17,7 @@
 ## General info
 
 This project is being developed in progress of course **_WTF: Co ten frontend_**.
-This project show how to use Local Storage in small exapmle
+This project show how to use Local Storage in small example
 
 ## Technologies
 
@@ -45,11 +45,11 @@ Demo version of this project: [Link](https://skalutki.github.io/Simply-editor202
 - save / load / remove item in Local Storage
 - auto refresh web
 - flex box
--
+
 
 ## To-do list:
 
-- add to local storage dark / light theam
+- add RWD
 
 ## Status
 
