@@ -1,4 +1,4 @@
-![screenshot](gh/cover.JPG)
+![cover](gh/fb.png)
 
 # Simply editor
 
@@ -15,6 +15,8 @@
 - [Contact](#contact)
 
 ## General info
+
+![screenshot](gh/cover.JPG)
 
 This project is being developed in progress of course **_WTF: Co ten frontend_**.
 This project show how to use Local Storage in small example
@@ -45,7 +47,6 @@ Demo version of this project: [Link](https://skalutki.github.io/Simply-editor202
 - save / load / remove item in Local Storage
 - auto refresh web
 - flex box
-
 
 ## To-do list:
 
